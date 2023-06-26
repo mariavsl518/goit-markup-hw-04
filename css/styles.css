@@ -1,8 +1,8 @@
 :root {
     --primary-font: "Roboto", sans-serif;
     --body-text-color: #434455;
-    --button-link-color:#4D5AE5;
-    --hover-link-color:#404BBF;
+    --iris-color:#4D5AE5;
+    --ocean-color:#404BBF;
     --main-white-color:#F4F4FD;
     --title-color:#2e2f42;
 }
@@ -69,7 +69,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--button-link-color);
+    color: var(--iris-color);
     margin-right: 76px;
 }
 .logo-grey {
@@ -98,7 +98,7 @@ ul {
 .link.navi:hover,
 .link.navi:focus,
 .link.navi:active{
-    color: var(--hover-link-color);
+    color: var(--ocean-color);
 }
 
 .contacts{
@@ -109,12 +109,19 @@ ul {
 .contacts .link:hover,
 .contacts .link:active,
 .contacts .link:focus {
-    color:var(--hover-link-color)
+    color:var(--ocean-color)
 }
+
+
 /* hero */
+
 .hero {
     color:#FFF;
     background-color:#2E2F42; 
+    background-image:url(/images/grey-hero.png),
+    url(/images/hero-image.jpg);
+    background-repeat: none;
+    background-size: cover;
     width: 1440px;
     height: 600px;
     padding: 188px 0;
@@ -128,11 +135,12 @@ ul {
     max-width: 496px; 
 }
 .hero-container {
+
 }
 .hero-button {
     font-family: "Roboto", sans-serif; 
     color: #FFF;
-    background-color: var(--button-link-color); 
+    background-color: var(--iris-color); 
     font-weight: 500;
     cursor: pointer;
     letter-spacing: 0.04em;
@@ -148,9 +156,12 @@ ul {
 .hero-button:hover,
 .hero-button:active, 
 .hero-button:focus {
-    background-color: var(--hover-link-color);
+    background-color: var(--ocean-color);
 }
+
+
 /* benefits section */
+
 .benefits-section{
     padding: 120px 0;
 }
@@ -158,6 +169,11 @@ ul {
 .benefits-list{
     display: flex;
     gap: 24px;
+}
+.benefits-icon{
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    border-radius: 4px;
 }
 .text-section {
     width: calc((100% - 72px) / 4);
@@ -176,6 +192,8 @@ ul {
     width: 264px;
     height: 104px;
 }
+
+
 /* what are we doing */
 .wawd-section {
     padding-bottom: 120px;
@@ -194,7 +212,10 @@ ul {
     display: flex;
     gap: 24px;
 }
+
+
 /* Team */
+
 .team-section {
     background-color: var(--main-white-color);
     padding: 120px 0;
@@ -236,6 +257,43 @@ ul {
 .team-text {
     color: #434455;
 }
+.team-social-medias{
+    display: flex;
+    gap: 24px;
+    margin-top: 8px;
+}
+.t-socials{
+    background-color: var(--iris-color);
+    padding: 12px;
+    border-radius: 50%;
+}
+.t-socials:hover,
+.t-socials:focus,
+.t-socials:active{
+    background-color: var(--ocean-color);
+}
+
+
+/* Customers */
+
+.customers {
+    padding: 120px 0;
+
+}
+.customers-list {
+    display: flex;
+    gap: 24px;
+}
+.cust-icon {
+    padding: 16px 32px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+.cust-icon:hover,
+.cust-icon:focus,
+.cust-icon:active {
+    border: 1px solid var(--ocean-color);
+}
 
 /* PORTFOLIO */
 
@@ -247,7 +305,7 @@ ul {
 }
 .buttons {
     font-family: var(--primary-font);
-    color: var(--button-link-color);
+    color: var(--iris-color);
     background-color:var(--main-white-color);
     cursor: pointer;
     font-weight: 500;
@@ -260,7 +318,7 @@ ul {
 .buttons:active,
 .buttons:focus
 {
-    background-color: var(--hover-link-color);
+    background-color: var(--ocean-color);
     color:#FFF;
     border: 1px solid transparent;
 }
@@ -271,7 +329,10 @@ ul {
     gap: 24px;
 
 }
+
+
 /* pictures */
+
 .image-container{
     display:flex;
     flex-wrap: wrap;
@@ -297,11 +358,18 @@ ul {
     border: 1px solid #E7E9FC;
     border-top: none;
 }
+
+
 /* Footer */
+
 .footer {
     background-color: #2E2F42;
     color: var(--main-white-color);
     padding: 100px 0px;
+}
+.footer-container {
+    display: flex;
+    gap: 120px;
 }
 .footer-logo {
     display: inline-block;
@@ -313,3 +381,28 @@ ul {
 .footer-text{
     max-width: 264px;
 }
+.social-title {
+    font-weight: 500;
+    letter-spacing: 0.32px;
+}
+.footer-socials-block {
+    
+}
+.footer-social-medias {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+
+}
+.f-socials{
+    background-color: var(--iris-color);
+    padding: 12px;
+    border-radius: 50%;
+}
+.f-socials:hover,
+.f-socials:focus,
+.f-socials:active{
+    background-color: #31D0AA;
+}
+
+
