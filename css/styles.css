@@ -57,7 +57,7 @@ ul {
 
 /* Header */  
 .header {
-    padding: 24px 0;
+     max-height: 72px;
     border: 1px solid #E7E9FC;
 } 
 /* logo */
@@ -92,7 +92,6 @@ ul {
     display: flex;
     color: var(--title-color);
     font-style: normal;
-    font-weight: 500;
     padding: 24px 0;
 }
 .link.navi:hover,
@@ -103,7 +102,6 @@ ul {
 
 .contacts{
     font-style: normal;
-    font-weight: 500;
     line-height: 1.5em;
 }
 .contacts .link:hover,
@@ -127,8 +125,7 @@ ul {
     background-repeat: none;
     background-size: cover;
     background-position: center;
-    width: 1440px;
-    height: 600px;
+    
     padding: 188px 0;
     margin: 0 auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -195,8 +192,6 @@ ul {
 .benefits-text{
     letter-spacing: 0.02em;
     color:var(--body-text-color);
-    width: 264px;
-    height: 104px;
 }
 
 
@@ -225,7 +220,6 @@ ul {
 .team-section {
     background-color: var(--main-white-color);
     padding: 120px 0;
-    margin-top: 120px;
 }
 .team-list {
     display: flex;
@@ -312,7 +306,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 /*  button line */
 .portfolio-section {
-    margin-bottom: 120px;
     padding-top: 96px; 
     padding-bottom: 120px; 
 }
