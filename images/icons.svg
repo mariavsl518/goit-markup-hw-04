@@ -58,5 +58,8 @@
     <symbol id="hover" viewBox="0 0 384 32">
       <path fill="#404bbf" style="fill:var(--color1, #404bbf)" d="M16 0h352c8.837 0 16 7.163 16 16s-7.163 16-16 16H16C7.163 32 0 24.837 0 16S7.163 0 16 0z"/>
     </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path d="M32 3.223 28.777 0 16 12.777 3.223 0 0 3.223 12.777 16 0 28.777 3.223 32 16 19.223 28.777 32 32 28.777 19.223 16 32 3.223z"/>
+    </symbol>   
   </defs>
 </svg>
